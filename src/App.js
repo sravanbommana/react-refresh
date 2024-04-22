@@ -1,9 +1,10 @@
 import './App.css';
+import Input from './components/ref/Input';
 
 function App() {
   return (
     <div className="App">
-     Hi Welecome to React
+     <Input />
     </div>
   );
 }
