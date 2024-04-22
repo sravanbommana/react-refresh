@@ -1,9 +1,10 @@
 import './App.css';
+import ParentClass from './components/parent-component/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-     Hi Welecome to React
+      <ParentClass />
     </div>
   );
 }
