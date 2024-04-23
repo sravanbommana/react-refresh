@@ -1,9 +1,11 @@
 import './App.css';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <div className="App">
-     Hi Welecome to React
+      <Hero role="Batman" />
+      <Hero role="Joker" />
     </div>
   );
 }
