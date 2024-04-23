@@ -1,9 +1,10 @@
 import './App.css';
+import ForwardRef from './components/ForwardRef';
 
 function App() {
   return (
     <div className="App">
-     Hi Welecome to React
+      <ForwardRef />
     </div>
   );
 }
