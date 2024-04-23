@@ -12,7 +12,7 @@ class Input extends Component {
   render() {
     return (
       <div>
-        <input type="text" ref={this.inputRef} onClick={this.handleClick}/>
+        <input type="text" ref={this.inputRef} onMouseLeave={this.handleClick}/>
       </div>
     )
   }
