@@ -1,9 +1,10 @@
 import './App.css';
+import Server from './components/Server';
 
 function App() {
   return (
     <div className="App">
-     Hi Welecome to React
+      <Server />
     </div>
   );
 }
