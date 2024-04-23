@@ -1,9 +1,10 @@
 import './App.css';
+import LifeCycleMethodsDemo from './components/LifeCycleMethodsDemo';
 
 function App() {
   return (
     <div className="App">
-     Hi Welecome to React
+       <LifeCycleMethodsDemo />
     </div>
   );
 }
