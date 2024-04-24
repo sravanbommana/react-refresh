@@ -1,9 +1,15 @@
-import './App.css';
+import { ThemeProvider } from "react-bootstrap";
+import "./App.css";
+import Alpha from "./components/Alpha";
+import Beta from "./components/Beta";
 
 function App() {
   return (
     <div className="App">
-     Hi Welecome to React
+      <ThemeProvider>
+        <Alpha />
+        <Beta />
+      </ThemeProvider>
     </div>
   );
 }
